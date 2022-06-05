@@ -192,3 +192,99 @@ section.body>div.sect1>button#sect3:hover{
     color: gold;
     
 }
+
+
+/* Upper Part */
+section.upperPart{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+section.upperPart>img{
+    border-radius: 15px 0px 15px 0px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px #4070f4;
+}
+
+section.upperPart .boxCon{
+    display: flexbox;
+    justify-content: space-around;
+    
+}
+
+section.upperPart .boxCon .aries{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .aries:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+section.upperPart .boxCon .aries>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .aries>p{
+    color: black;
+
+}
+
+section.upperPart .boxCon .detail{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .detail:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+
+section.upperPart .boxCon .detail>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .detail>p{
+    color: black;
+
+}
+
+section.upperPart .boxCon .Des{
+    border: 1px solid #4070f4;
+    padding: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.upperPart .boxCon .Des:hover{
+    background-color: #4070f4;
+    color:#fff;
+    box-shadow: 5px 2px 5px #4070f4;
+}
+
+section.upperPart .boxCon .Des>h3{
+    font-size: 20px;
+}
+
+section.upperPart .boxCon .Des>p{
+    color: black;
+    background-color: transparent;
+
+}
