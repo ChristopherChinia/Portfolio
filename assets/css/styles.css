@@ -297,3 +297,205 @@ section.upperPart .boxCon .Des>p{
     background-color: transparent;
 
 }
+
+
+/* Middle Section */
+section.similar{
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px grey;
+    padding: 30px;
+}
+
+section.similar>div.slone>h3{
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 5px solid #4070f4;
+    max-width: 27%;
+}
+
+section.similar .carryOne{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+section.similar .carryOne .pic1{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic1>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic1 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic1 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic1 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic1 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic2{
+    padding: 5px;
+    
+}
+
+section.similar .carryOne .pic2>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic2 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic2 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic2 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic2 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic3{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic3>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic3 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic3 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic3 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic3 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic4{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic4>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic4 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic4 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic4 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic4 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
+
+section.similar .carryOne .pic5{
+    padding: 5px;
+}
+
+section.similar .carryOne .pic5>img{
+    height: 250px;
+    width: 350px;
+    border-radius: 24px;
+}
+
+section.similar .carryOne .pic5 .picData{
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px;
+}
+
+section.similar .carryOne .pic5 .picData>h4{
+    font-style: italic;
+}
+
+section.similar .carryOne .pic5 .picData>h4>button{
+    padding: 5px;
+    border-left: 15px;
+    background-color:black;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+section.similar .carryOne .pic5 .picData>h4>button>a{
+    text-decoration: none;
+    color: gold;
+    background-color:black;
+    
+}
