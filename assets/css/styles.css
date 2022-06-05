@@ -9,7 +9,6 @@ nav.page{
     width: 100%;
     height: 700px;
     border-radius: 15px;
-    border: 1px solid red;
 }
 
 nav.page>.infom{
@@ -139,6 +138,7 @@ section.body{
     justify-content: space-between;
     max-width: 100%;
     border-radius: 15px;
+    background-color: #4070f4;
 }
 
 section.body>img{
@@ -161,11 +161,11 @@ section.body>div.sect1{
 }
 
 section.body>div.sect1>hr{
-    margin-right: 70%;
+    margin-right: 90%;
     height:2px; 
     width: 100px;
     border: 0 ;
-    background-color: grey;
+    background-color: black;
     
 }
 
@@ -179,7 +179,7 @@ section.body>div.sect1>h2.head{
 section.body>div.sect1>p.sect2{
     font-size: large;
     font-style: unset;
-    color: gray;
+    color: black;
     font-size: 25px;
 }
 section.body>div.sect1>button#sect3{
@@ -208,6 +208,7 @@ section.upperPart{
     justify-content: space-around;
     align-items: center;
     border-radius: 15px;
+    background-color: gold;
 }
 
 section.upperPart>img{
@@ -304,6 +305,7 @@ section.similar{
     border-radius: 15px;
     box-shadow: 15px 15px 15px grey;
     padding: 30px;
+    background-color: #4070f4;
 }
 
 section.similar>div.slone>h3{
@@ -549,3 +551,133 @@ footer.back>div.row{
     color: white;
     flex-direction: row;
 }
+
+footer.back>div.row .rowTwo>h4{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.container-2{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px transparent;
+    max-height:800px ;
+    margin-top: 20%;
+    border-radius: 6px;
+    margin-left: 40px;
+    }
+    
+    .container-2>.logIn{
+        padding: 70px;
+    }
+    
+    
+    .logIn>.login-form>.title::before{
+        content:'';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 30px;
+        background-color: #4070f4;
+        border-radius: 25px;
+    }
+    
+    .logIn>.login-form>form>.input{
+        margin-top: 40px;
+        width: 100%;
+        height: 50px;
+        position: relative;
+    
+    }
+    
+    
+    .logIn>.login-form>form>.input>input{
+        height: 100%;
+        width: 100%;
+        padding: 0 35px;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #4070f4;
+        border-top: 2px solid white;
+        border-radius: 5px;
+        transition: all 0.3 ease;
+        
+    }
+    
+       
+    .logIn>.login-form>form>.input>i{
+        position:absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: black;
+        
+    }
+    
+    .logIn>.login-form>form>.input>input:is(:focus, :valid) ~ i{
+        color: #4070f4;
+    }
+    
+    .logIn>.login-form>form>.input>i.icon{
+        left: 0;
+    }
+
+    .logIn>.login-form>form>.input>i.showEye{
+        right: 0;
+        padding-left: 90%;
+    }
+    
+    .logIn .checkbox-text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .checkbox-content{
+        accent-color: #4070f4;
+    }
+    
+    .logIn a{
+        text-decoration: none;
+    }
+    
+    .logIn a:hover{
+        text-decoration: underline;
+    }
+    
+    .logIn .input-button{
+        margin-top: 25px;
+    }
+    
+    .logIn .input-button>input{
+        padding: 10px 100px 10px 100px ;
+        background-color: lightgray;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #4070f4;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+        
+    }
+    
+    .logIn .input-button>input:hover{
+        box-shadow: 3px 3px 3px royalblue;
+    }
+    
+    .logIn .signup{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .logIn .signup>span>a{
+        color: royalblue;
+        font-weight: 600;
+    }
