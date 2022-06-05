@@ -37,7 +37,7 @@ As a user of this site,you will be able to:
 
  ### Installation Process
  ****
- *Clone to through the repository :
+ *Clone to through the repository :https://github.com/ChristopherChinia/Portfolio.git
  * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
@@ -45,7 +45,7 @@ As a user of this site,you will be able to:
   [Go Back to the top](#Moringa-School)
 ### Live Link
 
- Click this link to view the live application: 
+ Click this link to view the live application: https://christopherchinia.github.io/Portfolio/
 
  ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
